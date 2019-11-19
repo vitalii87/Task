@@ -16,6 +16,13 @@ class Main:
         response = requests.get(url)
         assert response.status_code == code
 
+    def test_autorization(self, get, code401, code200):
+        url = get
+        response = requests.get(url)
+        print(response.status_code)
+        assert response.status_code == code401
+        assert response.status_code != code200
+
 
 
 
