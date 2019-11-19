@@ -17,11 +17,6 @@ class Main:
         assert response.status_code == 200
 
 
-# Main.test_post()
-# Main.test_get()
-# m = Main()
-# m.test_get()
-# m.test_post()
 
 
 

@@ -1,4 +1,4 @@
-from Vit_test.main import Main
+from Vit_test.Task.main import Main
 import pytest
 
 
